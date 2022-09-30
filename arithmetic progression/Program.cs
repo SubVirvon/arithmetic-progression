@@ -10,10 +10,15 @@ namespace arithmetic_progression
     {
         static void Main(string[] args)
         {
-            for(int i = 5; i <= 96; i += 7)
+            int minValue = 5;
+            int maxValue = 96;
+            int step = 7;
+
+            for(int i = minValue; i <= maxValue; i += step)
             {
                 Console.WriteLine(i);
             }
+
             Console.ReadKey();
         }
     }
